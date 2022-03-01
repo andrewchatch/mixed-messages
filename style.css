@@ -45,7 +45,7 @@ body {
   border-radius: 10px;
   border-width: 5px;
   background-color: aliceblue;
-  /*display: none;*/
+  display: none;
 }
 
 .output-elements {
