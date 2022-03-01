@@ -2,10 +2,42 @@
 
 <html>
   <head>
+    <title>Horoscope Generator</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="main.js" defer></script>
+    <script src="scripts/main.js" defer></script>
   </head>
   <body>
-    <h1 id="title">Daily Horoscope Generator</h1>
+    <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+
+    <div id="header">
+      <h1 id="title">Daily Horoscope Generator</h1>
+    </div>
+
+    <section id="form-section">
+      <form id="form" target="dummyframe">
+        <div class="form-element">
+          <label for="firstName">First Name: </label>
+          <input id="firstName" name="firstName" type="text" required/>
+        </div>
+        
+        <div class="form-element">
+          <label for="birthday">Birthday: </label>
+          <input id="birthday" name="birthday" type="date" required/>
+        </div>
+        
+        <div class="form-element">
+          <input id="submit" name="submit" type="submit" value="Generate Horoscope" />
+        </div>
+  
+      </form>
+
+    </section>
+
+    <div id="output-container" >
+      <div id="output">
+
+      </div>
+    </div>
+    
   </body>
 </html>

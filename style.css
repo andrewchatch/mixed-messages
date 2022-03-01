@@ -1,7 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  width: 100vw;
+  height: 11vh;
+  background-color: black;
+  display: flex;
+}
+
 #title {
   display: block;
+  margin: auto;
+  width: 40vw;
+  font-size: 3vw;
+  text-align: center;
+  color: pink;
+}
+
+#form-section {
+  width: 50vw;
+  height: 20vh;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 25vw;
+}
+
+.form-element {
+  display: block;
+  padding: 10px;
+  width: 50vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#output-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  height: 50vh;
+  width: 50vw;
+  border-radius: 10px;
+  border-width: 5px;
+  background-color: aliceblue;
+  /*display: none;*/
+}
+
+.output-elements {
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+
+#horoscope {
+  height: 10vh;
+  width: 30vw;
+  padding: 35px;
+  margin: auto;
   text-align: center;
 }
